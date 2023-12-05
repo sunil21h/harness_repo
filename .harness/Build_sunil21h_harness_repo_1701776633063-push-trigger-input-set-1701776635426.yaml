@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sunil21h_harness_repo_1701776633063-push-trigger-input-set
+  identifier: Build_sunil21h_harness_repo_1701776633063pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sunil21h_harness_repo_1701776633063
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
